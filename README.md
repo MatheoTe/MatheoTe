@@ -28,7 +28,7 @@ Weather search application using OpenWeather API.
 ![PHP](https://img.shields.io/badge/PHP-purple?style=for-the-badge&logo=php)
 ![MySQL](https://img.shields.io/badge/MySQL-blue?style=for-the-badge&logo=mysql)
 ![Git](https://img.shields.io/badge/Git-red?style=for-the-badge&logo=git)
-Frontend
+
 - HTML5
 - CSS3
 - JavaScript (ES6+)
