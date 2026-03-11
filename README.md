@@ -20,7 +20,14 @@ Weather search application using OpenWeather API.
 ---
 
 ## 🛠 Tech Stack
+## 🛠 Tech Stack
 
+![HTML](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5)
+![CSS](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript)
+![PHP](https://img.shields.io/badge/PHP-purple?style=for-the-badge&logo=php)
+![MySQL](https://img.shields.io/badge/MySQL-blue?style=for-the-badge&logo=mysql)
+![Git](https://img.shields.io/badge/Git-red?style=for-the-badge&logo=git)
 Frontend
 - HTML5
 - CSS3
