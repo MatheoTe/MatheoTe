@@ -1,16 +1,63 @@
-## Hi there 👋
+# Hi, I'm Matheo Telesca 👋
 
-<!--
-**MatheoTe/MatheoTe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Full Stack Developer with experience building scalable web applications using JavaScript, PHP and REST APIs.
 
-Here are some ideas to get you started:
+📍 Mar del Plata, Argentina  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 Projects
+
+### 🍔 Restaurant Ordering System
+Digital restaurant menu built with HTML, CSS and JavaScript.
+
+### ✅ Task Manager App
+Task management application using JavaScript and LocalStorage.
+
+### 🌤 Weather App
+Weather search application using OpenWeather API.
+
+---
+
+## 🛠 Tech Stack
+
+Frontend
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Responsive Design
+
+Backend
+- PHP
+- REST APIs
+- Server-side logic
+
+Database
+- MySQL
+
+Tools
+- Git
+- GitHub
+- Docker
+- Postman
+- VS Code
+
+---
+
+## 💼 Professional Experience
+
+**Full Stack Developer — SkyTel (2021–2024)**
+
+- Developed full stack features based on business requirements
+- Built responsive interfaces with HTML, CSS and JavaScript
+- Implemented backend logic using PHP and MySQL
+- Integrated third-party APIs and services
+- Optimized database queries and system performance
+
+---
+
+## 📫 Contact
+
+📧 matheotelesca@gmail.com  
+📱 +54 223 341 0252  
+🌐 GitHub: https://github.com/MatheoTe
