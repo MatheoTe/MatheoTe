@@ -1,70 +1,40 @@
-# Hi, I'm Matheo Telesca 👋
+### Matheo Telesca
 
-Full Stack Developer with experience building scalable web applications using JavaScript, PHP and REST APIs.
+Full stack & AI engineer. I design and ship systems that run in production: AI agents that talk to real customers, retrieval pipelines you can audit, and multi-tenant SaaS with the guarantees pushed down to the database.
 
-📍 Mar del Plata, Argentina  
+Currently building AI agents, automations and custom systems for US and LATAM businesses at **Telesca Solutions**. Also: AI & automation engineer on an internal CRM platform (lead-capture chatbot, AI email agent with human review). Before that, full stack developer on a 5-person team shipping billing, reporting and internal tools in PHP, React and MySQL.
 
----
-
-## 🚀 Projects
-
-### 🍔 Restaurant Ordering System
-Digital restaurant menu built with HTML, CSS and JavaScript.
-
-### ✅ Task Manager App
-Task management application using JavaScript and LocalStorage.
-
-### 🌤 Weather App
-Weather search application using OpenWeather API.
+📍 Mar del Plata, Argentina · remote, US/EU hours · English C1
 
 ---
 
-## 🛠 Tech Stack
-## 🛠 Tech Stack
+#### Featured work
 
-![HTML](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5)
-![CSS](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3)
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript)
-![PHP](https://img.shields.io/badge/PHP-purple?style=for-the-badge&logo=php)
-![MySQL](https://img.shields.io/badge/MySQL-blue?style=for-the-badge&logo=mysql)
-![Git](https://img.shields.io/badge/Git-red?style=for-the-badge&logo=git)
+| Project | What it is | Engineering worth a look |
+|---|---|---|
+| **[whatsapp-credit-agent](https://github.com/MatheoTe/whatsapp-credit-agent)** | AI agent on WhatsApp that qualifies loan applicants and runs a collections funnel, with its own CRM | Claude structured outputs + code-level guardrails the model can't override · webhook signature verification and idempotency · 142 tests and an offline eval suite |
+| **[citely](https://github.com/MatheoTe/citely)** | RAG over your documents where every claim links to the exact passage | Hybrid search (Postgres FTS + pgvector, fused with RRF) · per-stage traces with latency and cost · eval harness in CI: recall@k, MRR, citation precision, LLM-judged faithfulness |
+| **[reservo](https://github.com/MatheoTe/reservo)** | Multi-tenant booking SaaS for service businesses | Tenant isolation with Postgres row-level security under a non-bypass role · double booking impossible via an exclusion constraint · DST-safe availability engine (100+ tests) · idempotent Stripe webhooks + transactional outbox |
+| **[ai-visibility-tracker](https://github.com/MatheoTe/ai-visibility-tracker)** | Tracks how ChatGPT, Claude, Gemini and Perplexity mention a brand vs. its competitors | FastAPI + arq workers · Redis token-bucket rate limiting and circuit breakers per provider · idempotent fan-out · versioned re-analysis · load test: 6,000 simulated model calls in 28.7 s |
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Responsive Design
-
-Backend
-- PHP
-- REST APIs
-- Server-side logic
-
-Database
-- MySQL
-
-Tools
-- Git
-- GitHub
-- Docker
-- Postman
-- VS Code
+In production for clients (private code): a WhatsApp agent that answers patients and books appointments for a two-location healthcare group, plus the system they use to audit insurer billing.
 
 ---
 
-## 💼 Professional Experience
+#### How I work
 
-**Full Stack Developer — SkyTel (2021–2024)**
+- Model the problem before writing code; put invariants where they can't be skipped (constraints, RLS, typed boundaries).
+- Treat LLMs as untrusted components: structured outputs, guardrails in code, evals before shipping, traces after.
+- Small commits, tests that prove behavior, READMEs that explain the trade-offs.
 
-- Developed full stack features based on business requirements
-- Built responsive interfaces with HTML, CSS and JavaScript
-- Implemented backend logic using PHP and MySQL
-- Integrated third-party APIs and services
-- Optimized database queries and system performance
+#### Stack
+
+**Languages** TypeScript · Python · PHP · SQL
+**Backend** Node.js · Next.js · FastAPI · PostgreSQL (RLS, pgvector) · Redis · Supabase
+**AI** Claude / OpenAI / Gemini APIs · RAG · agents & tool use · evals
+**Infra** Vercel · Railway · Docker · GitHub Actions
+**Integrations** WhatsApp Business API · Stripe · webhooks · n8n / Make
 
 ---
 
-## 📫 Contact
-
-📧 matheotelesca@gmail.com  
-📱 +54 223 341 0252  
-🌐 GitHub: https://github.com/MatheoTe
+[LinkedIn](https://www.linkedin.com/in/matheo-telesca-084a20209/) · [Book a 15-minute call](https://calendar.app.google/LJRnCnT5S3ucadfb7)
