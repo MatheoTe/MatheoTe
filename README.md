@@ -2,7 +2,7 @@
 
 Full stack & AI engineer. I design and ship systems that run in production: AI agents that talk to real customers, retrieval pipelines you can audit, and multi-tenant SaaS with the guarantees pushed down to the database.
 
-Currently building AI agents, automations and custom systems for US and LATAM businesses at **Telesca Solutions**. Also: AI & automation engineer on an internal CRM platform (lead-capture chatbot, AI email agent with human review). Before that, full stack developer on a 5-person team shipping billing, reporting and internal tools in PHP, React and MySQL.
+Currently building AI agents, automations and custom systems for US and LATAM businesses at **[Telesca Solutions](https://telescasolutions.com/en/)**. Also: AI & automation engineer on an internal CRM platform (lead-capture chatbot, AI email agent with human review). Before that, full stack developer on a 5-person team shipping billing, reporting and internal tools in PHP, React and MySQL.
 
 📍 Mar del Plata, Argentina · remote, US/EU hours · English C1
 
@@ -37,4 +37,4 @@ In production for clients (private code): a WhatsApp agent that answers patients
 
 ---
 
-[LinkedIn](https://www.linkedin.com/in/matheo-telesca-084a20209/) · [Book a 15-minute call](https://calendar.app.google/LJRnCnT5S3ucadfb7)
+[Telesca Solutions](https://telescasolutions.com/en/) · [LinkedIn](https://www.linkedin.com/in/matheo-telesca-084a20209/) · [Book a 15-minute call](https://calendar.app.google/LJRnCnT5S3ucadfb7)
